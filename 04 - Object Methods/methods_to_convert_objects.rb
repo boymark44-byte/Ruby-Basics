@@ -22,8 +22,22 @@ puts number.to_s.class # To check whether we succeed in converting the object in
 puts number.to_f # Converts the object into float
 puts number.to_f.class # To check whether we succeed in converting the object
 
+puts
+
+percentage = 0.9
+puts percentage.class
+puts percentage.to_s
+puts percentage.to_s.class
 
 puts
 
-
-percentage 
+# Converting a method String to a string
+# It can be useful when dealing with dynamic objects so that we can avoid triggering an Exception.
+# Polymorphism design which we know that if we invoke a method that is applicable to all object,
+# we may be able to safely execute our program because we know that we are not getting an error.
+puts "5".to_s
+puts "5".to_s.class
+puts 10.to_i
+puts 10.to_i.class
+puts 99.99.to_f
+puts 99.99.to_f.class 
