@@ -24,5 +24,5 @@ puts
 
 puts 5.35.abs # Returns the absolute value
 puts -5.35.abs # Returns the absolute value, distance must always be positive
-puts 35.abs 
+puts 35.abs
 puts -35.abs
