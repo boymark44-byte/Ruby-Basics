@@ -14,8 +14,3 @@ end
 
 result = add_two_number(1, 5)
 p result
-
-
-
-
-
