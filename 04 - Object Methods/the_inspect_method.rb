@@ -1,6 +1,6 @@
 # The p method
 p "Hello world\n"
-puts "Hello world\n" # More human readablew
+puts "Hello world\n" # More human readable
 
 
 # The inspect method
