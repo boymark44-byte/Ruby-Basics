@@ -35,6 +35,7 @@ p same_first_and_last_letter("q")
 # three_number_sum("000")   => 0
 puts
 def three_number_sum(numbers)
+  # Splitting the 3-digit string numbers, convert one-by-one into integers, and stored them in their own respective variables
   num1 = numbers[0].to_i
   num2 = numbers[1].to_i
   num3 = numbers[2].to_i
