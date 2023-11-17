@@ -13,3 +13,4 @@ puts story.slice(0, 5)
 puts story.slice(0, story.length) # Extracting the whole string in 2nd argument
 puts story.slice(-7, 5) # Starting from the en
 
+
