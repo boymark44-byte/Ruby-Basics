@@ -25,7 +25,7 @@ puts
 
 def reverse(text)
   return text if text.length == 1 # Our Base Case "s" that forces the recursion to stop
-  last_character = text.length - 1 # w
+  last_character = text[-1] # w
   remainder_string = text[0, text.length - 1] # text[0, 4] pulling out all the charaters except for the last one
   last_character + reverse(remainder_string) # w + reverse("stra")
 end
