@@ -12,7 +12,7 @@
 # split_in_two(["A", "B", "C"])           => [["A", "B"], ["C"]]
 # split_in_two(["A", "B", "C", "D", "E"]) => [["A", "B", "C"], ["D", "E"]]
 
-
+# I did have gathered some reference from the internet in order to solve this.
 # This method splits an array into two halves.
 # If the array has an odd number of elements, the first half will have one more element than the second half.
 def split_in_two(array)
@@ -46,19 +46,24 @@ p split_in_two(["A", "B", "C", "D", "E"])
 
 puts # Instructor Solution:
 
+# This method splits an array into two arrays of roughly equal size.
+# The midpoint is calculated by dividing the number of elements by 2 and rounding up if necessary.
+
 def split_in_two(values)
   number_of_elements = values.length
   midpoint = (number_of_elements / 2.0).ceil
 
+  # The first array includes the elements from the beginning of the original array up to the midpoint.
+  # The second array includes the elements from the midpoint to the end of the original array.
   [
     values.first(midpoint),
-    values.last(midpoint)
+    values.last(number_of_elements - midpoint)
   ]
-
-
 end
 
-# p split_in_two(["A", "B"])
-# p split_in_two(["A", "B", "C", "D"])
-# p split_in_two(["A", "B", "C"])
-# p split_in_two(["A", "B", "C", "D", "E"])
+# Examples of the method in use.
+p split_in_two(["A", "B"])
+p split_in_two(["A", "B", "C", "D"])
+p split_in_two(["A", "B", "C"])
+p split_in_two(["A", "B", "C", "D", "E"])
+
