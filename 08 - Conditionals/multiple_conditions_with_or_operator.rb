@@ -14,7 +14,7 @@ puts
 entree = "Steak"
 price = 49.99
 
-# We separate the boolean evaluations to descriptive variables that provide context.
+# We assign the boolean logic with descriptive variables to provide further context.
 food_is_delicious = entree == "Steak"
 meal_is_affordable = price < 29.99
 

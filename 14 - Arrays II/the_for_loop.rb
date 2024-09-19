@@ -1,4 +1,4 @@
-# Syntax: for element in iterable data structure
+# Syntax: for "element" in "iterable data structure"
 
 
 # # Leaves a remnant or data residue after operation

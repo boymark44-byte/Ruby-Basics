@@ -14,6 +14,8 @@ end
 
 p first_three_characters("dynasty")
 p first_three_characters("empire")
+
+
 # Define a five_from_the_end method that accepts a string.
 # The method should return the last 5 characters of the string.
 #
@@ -22,6 +24,7 @@ p first_three_characters("empire")
 #
 # five_from_the_end("dynasty")   => "nasty"
 # five_from_the_end("rhinoceros") => "ceros"
+
 puts
 def five_from_the_end(string)
   string.slice(-5, 5)
@@ -31,12 +34,10 @@ p five_from_the_end("dynasty")
 p five_from_the_end("rhinoceros")
 
 
-# ========================================================= #
-# ========================================================= #
-# ========================================================= #
+puts
 
 
-puts # Instructor Solution:
+# Instructor Solution:
 def first_three_characters(text)
   text.slice(0, 3)
 end

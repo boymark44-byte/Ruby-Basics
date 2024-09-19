@@ -32,3 +32,26 @@ p custom_index("I am very handsome", "e")
 p custom_index("I am very handsome", "Z")
 p custom_index("I am very handsome", "am")
 p custom_index("I am very handsome", "ma")
+
+
+
+puts # Instructor Solution
+def custom_index(text, search_term)
+  # To determine how many characters in our search term
+  search_term_length = search_term.length
+
+
+  text.chars.each_with_index do |character, index|
+    # text[starting index, no. of char to pull]
+    sequence = text[index, search_term_length]
+    return index if sequence == search_term
+ end
+
+ nil 
+end
+
+p custom_index("I am very handsome", "I")
+p custom_index("I am very handsome", "e")
+p custom_index("I am very handsome", "Z")
+p custom_index("I am very handsome", "am")
+p custom_index("I am very handsome", "ma")

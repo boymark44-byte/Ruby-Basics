@@ -12,7 +12,7 @@
 # longest_word("Ruby is my favorite language")         => "language"
 # longest_word("Hello")                                => "Hello"
 
-def longest_word(strings)
+def longest_word(strings) 
   # Invoke the split method on the strings and store them in an array
   words = strings.split(" ")
 
@@ -28,6 +28,26 @@ def longest_word(strings)
   end
 
   longest_word
+end
+
+p longest_word("Bobby loves very big scary kangaroos too")
+p longest_word("Ruby is my favorite language")
+p longest_word("Hello")
+
+
+
+puts # Instructor Solution
+def longest_word(phrase)
+  words = phrase.split(" ")
+  longest_word_in_phrase = words[0]
+
+  words.each do |word|
+    if word.length >= longest_word_in_phrase.length
+      longest_word_in_phrase = word
+    end
+  end
+
+  longest_word_in_phrase
 end
 
 p longest_word("Bobby loves very big scary kangaroos too")

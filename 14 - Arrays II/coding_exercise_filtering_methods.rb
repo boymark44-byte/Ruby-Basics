@@ -16,6 +16,8 @@ end
 p reverse_all(["cat", "bat", "tub"])
 p reverse_all(["forest"])
 p reverse_all([])
+
+
 # Define a words_with_letter method that accepts an array of strings and a letter.
 # The method should return an array of the strings that include the letter.
 #
@@ -65,7 +67,7 @@ puts # Instructor Solution:
 
 puts # Use the map or collect method.
 def reverse_all(elements)
-  elements.select { |element| element.reverse }
+  elements.map { |element| element.reverse }
 end
 
 p reverse_all(["cat", "bat", "tub"])

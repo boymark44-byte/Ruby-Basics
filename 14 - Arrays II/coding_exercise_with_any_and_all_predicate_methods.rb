@@ -17,6 +17,8 @@ end
 p has_greater_than_seven_characters(["ruby", "exercise", "cat"])
 p has_greater_than_seven_characters(["forest"])
 p has_greater_than_seven_characters([])
+
+
 # Define an against_all_odds method that accepts an array of numbers.
 # It should return a Boolean reflecting whether all array elements
 # are even.

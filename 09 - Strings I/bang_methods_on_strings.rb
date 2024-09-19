@@ -1,4 +1,4 @@
-# bang methods end with a exclamation symbil "!".
+# bang methods end with a exclamation symbol "!".
 # bang methods peform some kind of mutation, modify, or change an object that the method is invoke upon.
 
 

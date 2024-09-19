@@ -1,3 +1,4 @@
+# A custom method-based calculator
 def add(a, b)
   a + b
 end
@@ -36,4 +37,3 @@ puts calculator(3, 5, "add")
 puts calculator(2, 5, "subtract")
 puts calculator(3, 5, "multiply")
 puts calculator(20, 4, "divide")
-

@@ -10,7 +10,7 @@ p palindromes
 
 animals = ["cheetah", "cat", "lion", "elephant", "dog", "cow"]
 # If the block returns true, then Ruby will REJECT that element (Exclude it)
-# IF the block returns false, then Ruby will INCLUDE that element (Include it)
+# If the block returns false, then Ruby will INCLUDE that element (Include it)
 p animals.reject { |animal| animal.include?("c") }
 
 

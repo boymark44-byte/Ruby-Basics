@@ -11,17 +11,16 @@
 # calculate_meal_cost(100, 0.12)  => 112
 # calculate_meal_cost(100)        => 120
 
-# Own solution
-# def calculate_meal_cost(amount, tip = 0.20)
-#   total_cost = amount + tip
-# end
+# Instructor Solution:
+def calculate_meal_cost(amount, tip_percentage = 0.20)
+  amount + (amount * tip_percentage)
+end
 
-# puts calculate_meal_cost(20, 0.05)
-# puts calculate_meal_cost(20)
-# puts calculate_meal_cost(100, 0.12)
-# puts calculate_meal_cost(100)
+puts calculate_meal_cost(20, 0.05)
+puts calculate_meal_cost(20)
+puts calculate_meal_cost(100, 0.12)
+puts calculate_meal_cost(100)
 
-puts
 # Define a string_adder method that accepts two strings as arguments.
 # It should concatenate the the two strings with a space in between
 # them and return the new string. Both parameters should be optional.
@@ -47,22 +46,9 @@ puts
 # p string_adder
 # p string_adder("Tiger")
 
-
-puts
-# Solution:
-def calculate_meal_cost(amount, tip_percentage = 0.20)
-  amount + (amount * tip_percentage)
-end
-
-puts calculate_meal_cost(20, 0.05)
-puts calculate_meal_cost(20)
-puts calculate_meal_cost(100, 0.12)
-puts calculate_meal_cost(100)
-
-
 puts
 
-# Solution
+# Instructor Solution:
 def string_adder(a = "", b = "") # Both a and b should default to an empty string
   "#{a} #{b}"
 end

@@ -50,7 +50,8 @@ p numeric_energy(0)
 
 
 puts
-puts "Author Solution and Result: "
+
+
 # Author Solution:
 def numeric_energy(number)
   if number > 0

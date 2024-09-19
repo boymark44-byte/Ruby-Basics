@@ -27,8 +27,6 @@ p double_elements([10, 20, 30])
 
 
 # Using map method:
-# p double_elements([1, 2, 3, 4, 5])
-# p double_elements([10, 20, 30])
 
 # def double_elements(array)
 #   array.map { |element| element * 2} # Automatically store the transformed elements into a new array and returns it

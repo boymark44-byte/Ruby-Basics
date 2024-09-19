@@ -30,7 +30,7 @@ end
 
 puts
 
-# Syntactically correct but sematically wrong because were comparing two different things.
+# Syntactically correct but semantically wrong because we were comparing two different things.
 # Two pieces of logic that are not related
 if number < 25
   puts "First condition is true"

@@ -10,7 +10,7 @@ p units
 
 
 puts
-units.unshift("yard")
+p units.unshift("yard")
 p units
 
 units.unshift("inches", "miles")

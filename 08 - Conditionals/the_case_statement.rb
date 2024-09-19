@@ -1,4 +1,4 @@
-# Same value but with different variations and outcomes.
+# Same object or input value but with different variations and outcomes.
 # A shortcut for if-elsif statements.
 
 

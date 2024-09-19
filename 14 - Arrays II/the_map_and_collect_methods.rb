@@ -4,8 +4,8 @@
 
 birds = ["eagle", "sparrow", "pigeon", "hawk", "penguin"]
 
-# length = []
-# birds.each { |bird| lengths << bird.length }
+# bird_cage = []
+# birds.each { |bird| length << bird.length }
 # p length
 
 

@@ -7,7 +7,7 @@
 5.times { puts "Ruby is awesome!" } # Run this block 5 times
 
 
-puts 
+puts
 
 # More than one-line, use "do" and "end"
 value = 3.times do
@@ -15,5 +15,4 @@ value = 3.times do
   puts "I'm having fun learning it!"
 end
 
-
-puts value # Returns 3
+puts value

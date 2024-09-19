@@ -4,14 +4,14 @@ alphabet = "a".."z" # inclusive range with z included
 
 puts # The include? method
 puts alphabet.include?("j") # true
-puts alphabet.include?("z") # false
+puts alphabet.include?("z") # true
 puts alphabet.include?("J") # false
 
 
 puts # The member? method
-puts alphabet.include?("j") # true
-puts alphabet.include?("z") # false
-puts alphabet.include?("J") # false
+puts alphabet.member?("j") # true
+puts alphabet.member?("z") # true
+puts alphabet.member?("J") # false
 
 
 puts # The === operator for checking inclusion of a character

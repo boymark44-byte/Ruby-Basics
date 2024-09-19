@@ -10,11 +10,11 @@ def meal_plan(time_of_week, time_of_day)
   # Without Nesting:
   # if time_of_week == "weekday" && time_of_day == "morning"
   #   "Cereal"
-  # elsif time_of_week == "weekday" && time_of_day == "ngiht"
+  # elsif time_of_week == "weekday" && time_of_day == "night"
   #   "Chicken Nuggets"
   # end
 
-  # With Nesting 
+  # With Nesting
   if time_of_week == "weekday"
     if time_of_day == "morning"
       "Cereal"

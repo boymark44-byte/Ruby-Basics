@@ -31,8 +31,32 @@ def custom_split(text, delimiter)
 
   # Add the last segment to the result array if it's not empty
   result << segment unless segment.empty?
-
   result
+end
+
+p custom_split("Hi, my name is Boris", " ")
+p custom_split("ravioli is delicious", "i")
+p custom_split("Zebra", "j")
+p custom_split(" hello", " ")
+
+
+
+puts # Instructor Solution
+def custom_split(text, delimiter)
+  results = []
+  current_segment = ""
+
+  text.each_char do |character|
+    if character == delimiter
+      results << current_segment if current_segment.length > 0
+      current_segment = ""
+    else
+      current_segment << character
+    end
+  end
+
+  results << current_segment if current_segment.length > 0
+  results
 end
 
 p custom_split("Hi, my name is Boris", " ")

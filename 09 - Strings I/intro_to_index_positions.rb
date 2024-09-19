@@ -11,7 +11,7 @@ puts story[4]
 p story[100] # Returns nil
 
 
-puts # Extract the index from the end of the string with negative values
+puts # Extract a character through negative indexing
 puts story[-1]
 puts story[-2]
 puts story[-3]

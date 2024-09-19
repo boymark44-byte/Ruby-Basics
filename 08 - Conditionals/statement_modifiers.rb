@@ -10,7 +10,7 @@ end
 puts
 # Alternative way of writing with statement modifiers with only one line
 # Elegant way of writing an if-statement
-# Syntaxt is move the execution line or body, then, followed by the single or multiple condition statement
+# Syntax is move the execution line or body, then, followed by the single or multiple condition statement
 puts "That's a huge number!" if number > 5_000
 
 
@@ -34,4 +34,4 @@ end
 
 puts
 # Rewriting the code above using statement modifier
-puts "another_number is NOT greater than 10" unless another_number > 10 
+puts "another_number is NOT greater than 10" unless another_number > 10

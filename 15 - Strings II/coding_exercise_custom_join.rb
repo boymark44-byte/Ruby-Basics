@@ -25,7 +25,24 @@ def custom_join(strings, delimiter)
   results
 end
 
+p custom_join(["red", "green", "blue"], "!")
+p custom_join(["Big", "Mac"], "$$")
+p custom_join([], "$$$")
 
+
+
+puts # Instructor Solution
+def custom_join(elements, delimiter)
+  result = ""
+  last_index = elements.length - 1
+
+  elements.each_with_index do |element, index|
+    result << element
+    result << delimiter unless index == last_index
+  end
+
+  result
+end
 
 p custom_join(["red", "green", "blue"], "!")
 p custom_join(["Big", "Mac"], "$$")

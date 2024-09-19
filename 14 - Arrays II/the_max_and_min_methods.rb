@@ -1,5 +1,5 @@
-# max - greatest value in an array
-# min - smalles value in an array
+# max - greatest value of an array
+# min - smalles value of an array
 
 
 stock_prices = [434.12, 723.99, 84.12, 649.92]
@@ -14,5 +14,3 @@ p companies.min
 
 p [].max # Returns nil
 p [].min # Returns nil
-
-

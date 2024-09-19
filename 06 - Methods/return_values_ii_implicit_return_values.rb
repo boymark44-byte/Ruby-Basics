@@ -42,7 +42,7 @@ def add_two_numbers(num1, num2)
 end
 
 def nothing
-  puts "What will be the return value here?" # nil 
+  puts "What will be the return value here?"
 end
 
-p nothing # Returns a nil object as output
+p nothing # => nil
