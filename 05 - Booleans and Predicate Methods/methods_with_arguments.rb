@@ -3,6 +3,7 @@
 # If a method accepts a minimum of one argument, then it may the best
 # to include a parenthesis in method invocation.
 # Object method include?
+
 puts "Big Mac".include?("B") # true
 puts "Big Mac".include?("B") # true
 puts "Big Mac".include?("z") # false
@@ -17,5 +18,3 @@ puts
 # unless we are dealing with multiple inputs or arguments. It is a community convention.
 puts "Double Whopper"
 puts("Double Whopper", "Triple Whopper", "Quad Whopper")
-
-
