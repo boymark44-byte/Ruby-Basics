@@ -4,7 +4,7 @@ puts text.class # Returns String class or object
 puts text.to_i # Converts string into an integer
 puts text.to_i.class # Method chaining
 
-# Ruby wasn't able to figure out whether you want to output string or an integer that is why it returns 0
+# Ruby is unsure whether you want to output string or an integer that is why it returns 0
 puts "15 apples".to_i # Returns 15
 puts "apples 15".to_i # Returns 0
 puts "nonsense".to_i # Returns 0
@@ -31,13 +31,13 @@ puts percentage.to_s.class
 
 puts
 
-# Converting a method String to a string
+# Converting an object String into a String.
 # It can be useful when dealing with dynamic objects so that we can avoid triggering an Exception.
-# Polymorphism design which we know that if we invoke a method that is applicable to all object,
+# Polymorphism design allows us to know that if we invoke a method that is generally applicable to all object,
 # we may be able to safely execute our program because we know that we are not getting an error.
 puts "5".to_s
 puts "5".to_s.class
 puts 10.to_i
 puts 10.to_i.class
 puts 99.99.to_f
-puts 99.99.to_f.class 
+puts 99.99.to_f.class
